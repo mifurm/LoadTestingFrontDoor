@@ -1,0 +1,12 @@
+Collecting websockets==15.0.1
+  Downloading websockets-15.0.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Downloading websockets-15.0.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (182 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 182.3/182.3 kB 55.1 MB/s eta 0:00:00
+Installing collected packages: websockets
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+Successfully installed websockets-15.0.1
+
+[notice] A new release of pip is available: 24.0 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip
+WebSocket AFD limit test summary (ACI)\nduration_s=66.23\ntarget_connections=500\nconnect_ok=499\nconnect_fail=1\nsends_ok=57420\necho_ok=57413\necho_mismatch=0\nrecv_fail=7\ndisconnects=500\nlatency_p50_ms=20.24\nlatency_p95_ms=27.60\nerrors=\n  connect:TimeoutError: 1\n  recv:ConnectionClosedError: 7
+

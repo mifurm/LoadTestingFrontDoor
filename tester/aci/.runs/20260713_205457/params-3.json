@@ -1,0 +1,42 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "westeurope"
+    },
+    "containerGroupName": {
+      "value": "afd-ws-dist-20260713_205457-3"
+    },
+    "containerImage": {
+      "value": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye"
+    },
+    "cpuCores": {
+      "value": 2
+    },
+    "memoryInGb": {
+      "value": 4
+    },
+    "targetWsUrl": {
+      "value": "wss://afd-ws-echo-endpoint-hfgkfee9heergudn.z01.azurefd.net/ws/echo"
+    },
+    "connections": {
+      "value": 1000
+    },
+    "duration": {
+      "value": 60
+    },
+    "rampDelay": {
+      "value": "0.01"
+    },
+    "sendInterval": {
+      "value": "0.5"
+    },
+    "messageSize": {
+      "value": 128
+    },
+    "restartPolicy": {
+      "value": "Never"
+    }
+  }
+}

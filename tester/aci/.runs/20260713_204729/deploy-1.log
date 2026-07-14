@@ -1,0 +1,122 @@
+WARNING: A new Bicep release is available: v0.45.15. Upgrade now by running "az bicep upgrade".
+{
+  "id": "/subscriptions/c6484eee-b936-412a-94d6-8dc1b4386bc2/resourceGroups/rg-ws-echo/providers/Microsoft.Resources/deployments/afd-ws-dist-20260713_204729-1-deploy",
+  "location": null,
+  "name": "afd-ws-dist-20260713_204729-1-deploy",
+  "properties": {
+    "correlationId": "a1dd8f44-ef19-4b91-8b26-b1b518efb449",
+    "debugSetting": null,
+    "dependencies": [],
+    "diagnostics": null,
+    "duration": "PT1M4.9852082S",
+    "error": null,
+    "extensions": [],
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputResources": [
+      {
+        "apiVersion": null,
+        "extension": null,
+        "id": "/subscriptions/c6484eee-b936-412a-94d6-8dc1b4386bc2/resourceGroups/rg-ws-echo/providers/Microsoft.ContainerInstance/containerGroups/afd-ws-dist-20260713_204729-1",
+        "identifiers": null,
+        "resourceGroup": "rg-ws-echo",
+        "resourceType": "Microsoft.ContainerInstance/containerGroups"
+      }
+    ],
+    "outputs": {
+      "containerGroupName": {
+        "type": "String",
+        "value": "afd-ws-dist-20260713_204729-1"
+      },
+      "containerGroupState": {
+        "type": "String",
+        "value": "Running"
+      }
+    },
+    "parameters": {
+      "connections": {
+        "type": "Int",
+        "value": 1000
+      },
+      "containerGroupName": {
+        "type": "String",
+        "value": "afd-ws-dist-20260713_204729-1"
+      },
+      "containerImage": {
+        "type": "String",
+        "value": "mcr.microsoft.com/devcontainers/python:1-3.11-bullseye"
+      },
+      "cpuCores": {
+        "type": "Int",
+        "value": 2
+      },
+      "duration": {
+        "type": "Int",
+        "value": 60
+      },
+      "location": {
+        "type": "String",
+        "value": "westeurope"
+      },
+      "memoryInGb": {
+        "type": "Int",
+        "value": 4
+      },
+      "messageSize": {
+        "type": "Int",
+        "value": 128
+      },
+      "rampDelay": {
+        "type": "String",
+        "value": "0.01"
+      },
+      "restartPolicy": {
+        "type": "String",
+        "value": "Never"
+      },
+      "sendInterval": {
+        "type": "String",
+        "value": "0.5"
+      },
+      "targetWsUrl": {
+        "type": "String",
+        "value": "wss://afd-ws-echo-endpoint-hfgkfee9heergudn.z01.azurefd.net/ws/echo"
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.ContainerInstance",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "westeurope"
+            ],
+            "properties": null,
+            "resourceType": "containerGroups",
+            "zoneMappings": null
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "templateHash": "129129020443302105",
+    "templateLink": null,
+    "timestamp": "2026-07-14T03:48:37.919493+00:00",
+    "validatedResources": null,
+    "validationLevel": null
+  },
+  "resourceGroup": "rg-ws-echo",
+  "tags": null,
+  "type": "Microsoft.Resources/deployments"
+}

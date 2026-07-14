@@ -1,0 +1,16 @@
+Distributed AFD WebSocket test summary
+run_id=20260713_205457
+groups_requested=4
+groups_created=4
+connections_per_group=1000
+target_connections_total=0
+avg_group_duration_s=0.00
+connect_ok_total=0
+connect_fail_total=0
+sends_ok_total=0
+echo_ok_total=0
+echo_mismatch_total=0
+recv_fail_total=0
+disconnects_total=0
+latency_p50_ms_weighted=0.00
+latency_p95_ms_weighted=0.00

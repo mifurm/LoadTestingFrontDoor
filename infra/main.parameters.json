@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "westeurope"
+    },
+    "appServicePlanName": {
+      "value": "asp-ws-echo-demo"
+    },
+    "webAppName": {
+      "value": "websocket-echo-demo-12345"
+    },
+    "frontDoorProfileName": {
+      "value": "afd-ws-echo-demo"
+    },
+    "frontDoorEndpointName": {
+      "value": "afd-ws-echo-endpoint"
+    },
+    "frontDoorRouteName": {
+      "value": "ws-echo-route"
+    },
+    "frontDoorOriginGroupName": {
+      "value": "ws-echo-og"
+    },
+    "frontDoorOriginName": {
+      "value": "ws-echo-origin"
+    },
+    "frontDoorSku": {
+      "value": "Standard_AzureFrontDoor"
+    }
+  }
+}
